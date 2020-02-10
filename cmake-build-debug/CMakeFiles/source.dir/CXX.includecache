@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stack1.hpp
+memory
+-
+iostream
+-
+
+../include/stack2.hpp
+memory
+-
+iostream
+-
+
+/home/rooted/Documents/test_server/sources/source.cpp
+stack1.hpp
+-
+stack2.hpp
+-
+
